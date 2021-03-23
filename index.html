@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="javascript/calculadora.js"></script>
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="container">
+        <div class="tela">
+            <span class="operacao" id="operacao"></span>
+            <span class="resultado" id="resultado">0</span>
+        </div>
+        <button class="duas-colunas" onclick="limpar()">C</button>
+        <button onclick="deletar()">DEL</button>
+        <button onclick="inserirOperacao('÷')">÷</button>
+        <button onclick="inserirNumero(1)">1</button>
+        <button onclick="inserirNumero(2)">2</button>
+        <button onclick="inserirNumero(3)">3</button>
+        <button onclick="inserirOperacao('*')">*</button>
+        <button onclick="inserirNumero(4)">4</button>
+        <button onclick="inserirNumero(5)">5</button>
+        <button onclick="inserirNumero(6)">6</button>
+        <button onclick="inserirOperacao('+')">+</button>
+        <button onclick="inserirNumero(7)">7</button>
+        <button onclick="inserirNumero(8)">8</button>
+        <button onclick="inserirNumero(9)">9</button>
+        <button onclick="inserirOperacao('-')">-</button>
+        <button onclick="inserirPontoFlutuante()">.</button>
+        <button onclick="inserirNumero(0)">0</button>
+        <button class="duas-colunas" onclick="imprimirResultado()">=</button>
+    </div>
+</body>
+</html>
