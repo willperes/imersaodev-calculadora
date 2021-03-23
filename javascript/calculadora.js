@@ -130,6 +130,8 @@ function deletar() {
             resultado = 0;
             document.getElementById("resultado").innerText = telaOperacao;
             return;
+        } else if (telaOperacao == "0") {
+            return;
         }
         /*
             Identificar se o item anterior é um número ou uma operação.
